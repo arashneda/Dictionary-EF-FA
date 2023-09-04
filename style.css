@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Antonio;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 27, 11);
+}
+
+.container{
+
+    width: 30%;
+    height: auto;
+    background-color: rgba(67, 155, 100, 0.5);
+   box-shadow: 20px 20px 15px black;
+    background-position: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 400px;
+}
+
+h1.heading{
+    color: antiquewhite;
+    padding: 10px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+
+}
+
+input.input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+p.info-text{
+       padding: 5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+.meaning-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    padding: 20px;
+}
+
+#audio{
+    width: 100%;
+    height: 30px;
+}
+
+.meaning-container .title , .meaning-container .meaning{
+    width: 80%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+
+
+   
+}
